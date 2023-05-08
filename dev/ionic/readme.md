@@ -37,5 +37,5 @@ docker exec -it travel ionic serve --lab
 
 ## Build www production files
 ```
-docker exec -it travel ionic build --prod
+docker exec -it travel ionic build --prod --output-path=../../app/ionic
 ```
